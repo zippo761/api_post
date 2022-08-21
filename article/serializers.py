@@ -4,6 +4,7 @@ from .models import Article
 # Реализуем сериализитор используя ModelSerializer в котором уже реализован create update
 # и набор валидаторов по умолчанию
 
+
 class ArticleSerializer(serializers.ModelSerializer):
 
     class Meta:
